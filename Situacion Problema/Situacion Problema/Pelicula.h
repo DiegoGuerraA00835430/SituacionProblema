@@ -21,6 +21,6 @@ class Pelicula
   int getDuracion();
   string getGenero();
   
-  string despliegaPelicula();
+  string Str();
 };
 
