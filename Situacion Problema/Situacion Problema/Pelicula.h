@@ -3,18 +3,18 @@ class Pelicula
 {
   private:
   
-  string Id;
+  string id;
   string nombre;
   int duracion;
   string genero;
   
   public:
   pelicula();
-  pelicula(Id, nombre, duracion, genero);
-  void setId();
-  void setNombre();
-  void setDuracion();
-  void setGenero();
+  pelicula(string id, string nombre, int duracion, string genero);
+  void setId(string id);
+  void setNombre(string nombre);
+  void setDuracion(int duracion);
+  void setGenero(string genero);
   
   string getId();
   string getNombre();
