@@ -29,3 +29,23 @@ void Pelicula::setDuracion(int duracion){
 void Pelicula::setGenero(string genero){
   this->genero=genero;
 }
+
+string Pelicula::setId(){
+  return id;
+}
+
+string Pelicula::setNombre(){
+  return nombre;
+}
+
+int Pelicula::setDuracion(){
+  return duracion;
+}
+
+string Pelicula::setGenero(){
+  return genero;
+}
+
+string Pelicula::Str(){
+  return "Id: : " + id + " Nombre: " + nombre + " Duracion: " + to_string(duracion) + " Genero: " + genero;
+}
